@@ -1,0 +1,43 @@
+.ta
+{
+  
+    padding-left: 2.2em;
+    
+}
+.ta1
+{
+    padding-left: 1.8em;
+}
+/* for input field */
+.left
+{
+    margin-left: 8px;
+}
+input, select {
+    
+    padding: 12px 20px;
+    margin: 0px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.mat-mdc-table tbody, .mat-mdc-table tfoot, .mat-mdc-table thead, .mat-mdc-cell, .mat-mdc-footer-cell, .mat-mdc-header-row, .mat-mdc-row, .mat-mdc-footer-row, .mat-mdc-table .mat-mdc-header-cell {
+    background: #f0f0fd !important;
+    
+}
+.mat-mdc-header-row {
+    color: darkred !important;
+}
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+    /* .mat-cell {
+         font-size: 0.75em;
+         padding: 0.5em;
+       }
+       ::ng-deep.mdc-data-table__cell, ::ng-deep.mdc-data-table__header-cell {
+         padding: 0 16px 0 16px;
+     }*/
+    .page-data {
+     text-align: center;
+    }
+}
